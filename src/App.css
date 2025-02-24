@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+body{
+  background-color: black;
+}
+
+.lexend-unique {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  nav {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  button:focus {
+    outline: none;
+  }
