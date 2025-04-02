@@ -50,7 +50,7 @@ export default function App() {
     superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 5 },
     desktop: { breakpoint: { max: 3000, min: 1024 }, items: 3 },
     tablet: { breakpoint: { max: 1024, min: 464 }, items: 2 },
-    mobile: { breakpoint: { max: 464, min: 0 }, items: 2 },
+    mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
   };
 
   const CatImage = () => {
@@ -150,7 +150,7 @@ export default function App() {
           <section id="about" className="min-h-screen flex items-center justify-center">
             <div className="text-center max-w-3xl">
               <h2 className="text-3xl sm:text-4xl font-bold">About Me</h2>
-              <p className="mt-6 text-lg sm:text-xl md:text-2xl text-gray-400">
+              <p className="mt-6 text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto text-gray-400">
                 🌟 A full-time student with big dreams! I am on a journey of learning and creating things I love. 
                 💻 Passionate about building impactful solutions that make a difference in the world. 
                 🚀 Currently diving into React, Tailwind, Next.js, and so much more!
