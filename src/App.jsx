@@ -58,7 +58,7 @@ export default function App() {
     const [fadeOut, setFadeOut] = useState(false);
 
     const handleClick = () => {
-      setMessage('Dancing through the ages, one stomp at a time! 🦕🎶');
+      setMessage('Automating the web, one intelligent script at a time! 🤖💻');
       setFadeOut(false);
       setTimeout(() => setFadeOut(true), 3000);
     };
@@ -124,7 +124,7 @@ export default function App() {
             >
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold">Hey👋, Friends!</h2>
               <p className="mt-6 text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto text-gray-400">
-                I’m a developer blending tech and minimalism to craft <b>impactful, functional solutions</b>.
+                I’m a web developer specializing in AI automation, crafting efficient and intelligent digital experiences.
               </p>
               <CatImage />
             </motion.div>
@@ -151,9 +151,9 @@ export default function App() {
             <div className="text-center max-w-3xl">
               <h2 className="text-3xl sm:text-4xl font-bold">About Me</h2>
                 <p className="mt-6 text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-gray-400">
-                🌟 A full-time student with big dreams! I am on a journey of learning and creating things I love. 
-                💻 Passionate about building impactful solutions that make a difference in the world. 
-                🚀 Currently diving into React, Tailwind, Next.js, and so much more!
+                🌟 A passionate web developer with expertise in AI automation! I thrive on building scalable web applications and automating processes with intelligent AI solutions. 
+                💻 Dedicated to creating seamless user experiences and optimizing workflows through cutting-edge technology. 
+                🚀 Proficient in React, Tailwind, Next.js, Python for AI, machine learning frameworks, and beyond!
               </p>
               <div className="w-full max-w-5xl mx-auto mt-12">
             <Carousel
@@ -183,7 +183,7 @@ export default function App() {
           <section id="contact" className="min-h-screen flex items-center justify-center">
             <div className="text-center w-full max-w-lg">
               <h2 className="text-3xl sm:text-4xl font-bold">Contact</h2>
-              <p className="mt-4 text-gray-400 text-lg">Feel free to reach out—I’d love to chat!</p>
+              <p className="mt-4 text-gray-400 text-lg">Feel free to reach out—I’d love to discuss web development or AI automation projects!</p>
               <form className="mt-8 flex flex-col gap-4" action="https://formspree.io/f/mnnjyogn" method="POST">
                 <input
                   type="email"
@@ -209,7 +209,7 @@ export default function App() {
                 <a href="https://github.com/LuqmanNurhakimRosli" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github text-3xl hover:text-gray-400 transition-colors"></i>
                 </a>
-                <a href="https://linkedin.com/in/luqman-nurhakim-rosli-21974127a" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/luqman-nurhakim-21974127a/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin text-3xl hover:text-gray-400 transition-colors"></i>
                 </a>
                 <a href="mailto:luqmanrosli907@gmail.com" target="_blank" rel="noopener noreferrer">
